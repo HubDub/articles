@@ -1,0 +1,54 @@
+article:first-of-type {
+  background-color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.5em;
+  color: white;
+  line-height: 10px;
+  padding: 3px 0.5px 3px 0.5px;
+  border: 1px dotted white;
+  border-radius: 10px;
+}
+
+article:nth-of-type(2) {
+  background-color: orange;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1em;
+  color: blue;
+  line-height: 15px;
+  padding: 4px 0.5px 4px 0.5px;
+  border: 2px dashed blue;
+  border-radius: 15px;
+}
+
+article:nth-of-type(3) {
+  background-color: yellow;
+  font-family: Calibri, Garamond, "Comic Sans";
+  font-size: 1.5em;
+  color: green;
+  line-height: 20px;
+  padding: 5px 0.5px 5px 0.5px;
+  border: 3px solid green;
+  border-radius: 20px;
+  }
+
+  article:nth-of-type(4) {
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  color: yellow;
+  line-height: 25px;
+  padding: 10px 0.5px 10px 0.5px;
+  border: 6px double yellow;
+  border-radius: 30px;
+}
+
+article:last-of-type {
+  background-color: purple;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.5em;
+  color: orange;
+  line-height: 30px;
+  padding: 13px 0.5px 13px 0.5px;
+  border: 7px groove orange;
+  border-radius: 5px;
+  }
